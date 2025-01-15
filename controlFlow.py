@@ -38,3 +38,43 @@ else:
 
 print("Total Bill: "+ str(bill_total))
 
+
+# match statement
+# match statement is a new feature in python 3.10
+# it is used to compare a value against a set of constants
+# it is similar to switch statement in other languages
+# it is used to replace long if-elif-else statements
+
+# Example 1
+# http_status = 404
+# match http_status:
+#     case 200:
+#         print("OK")
+#     case 404:
+#         print("Not Found")
+#     case 500:
+#         print("Internal Server Error")
+#     case _:
+#         print("Unknown Status Code")
+
+# for loop
+# for loop is used to iterate over a sequence
+for i in range(5):
+    print(i)
+
+fav_fruits = ["apple", "banana", "orange", "grapes"]
+for idx, fruit in enumerate(fav_fruits):
+    print(idx, fruit)
+
+
+# while loop
+# while loop is used to execute a block of code multiple times
+i = 0
+while i < len(fav_fruits):
+    print(fav_fruits[i])
+    i += 1
+
+#nested loop
+for i in range(3):
+    for j in range(3):
+        print(i*j)
